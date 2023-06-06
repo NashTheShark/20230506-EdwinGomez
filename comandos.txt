@@ -1,0 +1,24 @@
+  
+  ----comandos realizados en gitbash-----
+  
+  393  mkdir 20230506-EdwinGomez
+  394  cd 20230506-EdwinGomez/
+  395  git init
+  396  git remote add origin https://github.com/NashTheShark/20230506-EdwinGomez.git
+
+  ----comandos realizados en terminal de visual code-----
+  
+  393  touch comandos.txt main.js index.html
+  394  git add .
+  395  git commit -m "commit 01 de EdwinGomez"
+  396  git push origin main
+  397  git branch feature
+  398  git checkout feature
+  399  mkdir Hardware Software SeguridadInformatica
+  400  touch Hardware/resumen.txt Software/resumen.txt SeguridadInformatica/resumen.txt
+  401  git add .
+  402  git commit -m "commit 02 de EdwinGomez"
+  403  git push origin feature
+  404  git checkout main
+  405  mv main.js resumenHardware.txt
+  406  mv index.html resumenSoftware.txt
